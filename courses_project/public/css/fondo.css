@@ -1,0 +1,45 @@
+.jumbotron {
+    margin-top: -8px;
+    margin-bottom: 0;
+}
+.form {
+    margin-top: 110px;
+    margin-bottom: 144px;
+}
+
+.custom-shape-divider-top-1606608666 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+  }
+  
+  .custom-shape-divider-top-1606608666 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 142px;
+    transform: rotateY(180deg);
+  }
+  
+  .custom-shape-divider-top-1606608666 .shape-fill {
+    fill: #4a90e2;
+  }
+  
+  /** For tablet devices **/
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .custom-shape-divider-top-1606608666 svg {
+      width: calc(100% + 1.3px);
+      height: 200px;
+    }
+  }
+  
+  /** For mobile devices **/
+  @media (max-width: 767px) {
+    .custom-shape-divider-top-1606608666 svg {
+      width: calc(100% + 1.3px);
+      height: 113px;
+    }
+  }
